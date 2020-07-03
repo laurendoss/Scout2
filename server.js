@@ -35,7 +35,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/scout", {
 });
 mongoose.connection.on("error", err => {
   console.error(err.message);
-});np
+})
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
