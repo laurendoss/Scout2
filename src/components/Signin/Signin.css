@@ -1,0 +1,53 @@
+#Header{
+    font-family: 'Vidaloka', serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    
+}
+
+#Form{
+    margin-left: 45vw;
+}
+
+#SubmitButton{
+    background-color: #d87865;
+    font-family: 'Vidaloka', serif;
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 10%;
+    border-color: #d87865;
+    color: blanchedalmond;
+}
+
+#LabelPassword{
+    font-family: 'Vidaloka', serif;
+    font-size: 30px;
+}
+
+#LabelEmail{
+    font-family: 'Vidaloka', serif;
+    font-size: 30px;
+}
+
+#Label{
+   
+    font-family: 'Vidaloka', serif;
+    font-size: 30px;
+}
+.Span{
+    font-family: 'Vidaloka', serif;
+    font-size: 30px;
+}
+.nav-tabs{
+    background-color: #d87865;
+}
+
+.tabBorder{
+    border-color: #d87865;
+}
+.headerDiv{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}

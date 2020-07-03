@@ -1,0 +1,25 @@
+.SignIn{
+    background-color: #E8DCCA;
+    min-height: 100vh;
+    border: none;
+}
+.SignUp{
+    background-color: #E8DCCA;
+    min-height: 100vh;
+    border: none;
+}
+
+#controlled-tab-example-tab-signin{
+    background-color: #E8DCCA;
+    border-color: #d87865; 
+    border-bottom: #E8DCCA;
+    color: #d87865;
+    font-family: 'Vidaloka', serif;
+}
+#controlled-tab-example-tab-signup{
+    background-color: #E8DCCA;
+    border-color: #d87865; 
+    border-bottom: #E8DCCA;
+    color: #d87865;
+    font-family: 'Vidaloka', serif;
+}
