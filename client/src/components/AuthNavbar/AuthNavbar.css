@@ -11,5 +11,36 @@
 #SignUp {
     font-family: 'Vidaloka', serif;
     font-size: 30px;
-    color: #ECB865
+    color: #ECB865; 
+    text-decoration: none;
+}
+
+#Dashboard{
+    padding: 10px; 
+    font-family: 'Vidaloka', serif;
+    color: #ECB865; 
+    font-size: 30px; 
+    text-decoration: none;
+}
+#adoption{
+    padding: 10px; 
+    font-family: 'Vidaloka', serif;
+    color: #ECB865; 
+    font-size: 30px; 
+    text-decoration: none;
+
+}
+#Logout {
+    padding: 10px; 
+    font-family: 'Vidaloka', serif;
+    color: #ECB865; 
+    font-size: 30px; 
+    text-decoration: none;
+}
+#Profile{
+    padding: 10px; 
+    font-family: 'Vidaloka', serif;
+    color: #ECB865; 
+    font-size: 30px; 
+    text-decoration: none;
 }

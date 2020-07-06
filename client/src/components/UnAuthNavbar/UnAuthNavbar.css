@@ -11,5 +11,6 @@
 #SignUp {
     font-family: 'Vidaloka', serif;
     font-size: 30px;
-    color: #ECB865
+    color: #ECB865; 
+    text-decoration: none;
 }

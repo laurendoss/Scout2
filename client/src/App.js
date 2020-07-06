@@ -11,6 +11,8 @@ import User from "./pages/User.js"
 import AuthNavbar from "./components/AuthNavbar/AuthNavbar.js"
 import UnAuthNavbar from "./components/UnAuthNavbar/UnAuthNavbar.js"
 import './App.css';
+import PetDashboard from './pages/Dashboard.js';
+import PetAdoption from "./pages/Adoption.js"
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         />
         <Route exact path="/" component={Home}/>
         <Route path="/authenticate" component={Authenticate}/>
+        <PrivateRoute path="/dashboard" component={PetDashboard}/>
+        <PrivateRoute path="/adoption" component={PetAdoption}/>
         <PrivateRoute path="/users/:userId" component={User} />
         {/* <PrivateRoute path="/client" component={Client}/> */}
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-// import "./style.css"
+import "./AuthNavbar.css"
 import { UserContext } from "../../utils/UserContext";
 import { USER_LOGOUT } from "../../utils/actions";
 
@@ -22,24 +22,28 @@ function AuthNavBar(props) {
       <Navbar.Collapse id="basic-navbar-nav"> 
         <Nav className="navbar-nav ml-auto pr-5">
           <div className="navbar-nav">
-          {state.user_type === "user" ? (
-            <NavLink to="/client" id="Client">
-                Schedule
+         
+          <NavLink
+              className="navbar-nav"
+              to={`/users/${state._id}`}
+              id="Dashboard"
+            >
+              Dashboard
+            </NavLink>
+            
+              <NavLink to="/adoption" id="adoption">
+                Pet Adoption
               </NavLink>
-            ) : (
-              <NavLink to="/admin" id="Admin">
-                View Appts
-              </NavLink>
-            )}
+            
           </div>
-
+{/* 
             <NavLink
               className="navbar-nav"
               to={`/users/${state._id}`}
-              id="Profile"
+              id="Dashboard"
             >
-              Profile
-            </NavLink>
+              Dashboard
+            </NavLink> */}
       
               <div
               className="navbar-nav"
