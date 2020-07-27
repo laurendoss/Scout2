@@ -32,7 +32,7 @@ function AuthNavBar(props) {
             </NavLink>
             
               <NavLink to="/adoption" id="adoption">
-                Adoption
+                Pet Adoption
               </NavLink>
             
           </div>
